@@ -20,13 +20,13 @@
     "baseUrl": "./",
     "paths": {
       "@core/*": [
-        "src/app/core/"
+        "src/app/core/*"
       ],
       "@modules/*": [
-        "src/app/modules/"
+        "src/app/modules/*"
       ],
       "@shared/*": [
-        "src/app/shared/"
+        "src/app/shared/*"
       ]
     }
   },

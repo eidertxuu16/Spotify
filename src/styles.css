@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
-    --color-1: #faefe0;
-    --color-2: #606C38;
-    --color-3: #283618;
-    --color-4: #BC6C25;
-    --color-5: #DDA15E;
+    --colour-1: #faefe0;
+    --colour-2: #606C38;
+    --colour-3: #283618;
+    --colour-4: #BC6C25;
+    --colour-5: #DDA15E;
     --font-size-1: 1rem;
     --font-size-2: 1.2rem;
     --font-size-3: 1.8rem;
@@ -21,10 +21,10 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--color-1);
+    background-color: var(--colour-1);
     font-family: var(--font-family-1);
     font-size: var(--font-size-1);
-    color: var(--color-4);
+    color: var(--colour-4);
 }
 
 input,

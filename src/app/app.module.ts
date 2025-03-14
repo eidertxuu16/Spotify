@@ -3,20 +3,16 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderUserComponent } from './modules/shared/components/header-user/header-user.component';
-import { MediaPlayerComponent } from './modules/shared/components/media-player/media-player.component';
-import { SideBarComponent } from './modules/shared/components/side-bar/side-bar.component';
+import { HomeModule } from './modules/home/home.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderUserComponent,
-    MediaPlayerComponent,
-    SideBarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HomeModule
   ],
   providers: [
     provideClientHydration(withEventReplay())
