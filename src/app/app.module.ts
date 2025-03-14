@@ -4,11 +4,13 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderUserComponent } from './modules/shared/components/header-user/header-user.component';
+import { MediaPlayerComponent } from './modules/shared/components/media-player/media-player.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderUserComponent
+    HeaderUserComponent,
+    MediaPlayerComponent
   ],
   imports: [
     BrowserModule,
